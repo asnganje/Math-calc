@@ -1,0 +1,107 @@
+.myCalc {
+    width: 500px;
+    height: 500px;
+    margin: 10rem auto;
+}
+
+.showCalc {
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+    text-align: right;
+    font-size: 2rem;
+    /* padding: 1rem; */
+}
+
+.keyboard-area {
+    display: grid;
+    height: 100%;
+    gap: 0.2rem;
+    grid-template-areas: 
+    "AC plusminus percent division"
+    "seven eight nine X"
+    "four five six minus"
+    "one two three plus"
+    "zero zero decimal equal";
+}
+
+.btn-zero {
+    grid-area: zero;
+}
+
+.btn-ac {
+    grid-area: AC;
+}
+
+.btn-plus-minus {
+    grid-area: plusminus;
+}
+
+.btn-percent {
+    grid-area: percent;
+}
+
+.btn-divide {
+    grid-area: division;
+    background-color: chocolate;
+}
+
+.btn-seven {
+    grid-area: seven;
+}
+
+.btn-eight {
+    grid-area: eight;
+}
+
+.btn-nine {
+    grid-area: nine;
+}
+
+.btn-times {
+    grid-area: X;
+    background-color: chocolate;
+}
+
+.btn-four {
+    grid-area: four;
+}
+
+.btn-five {
+    grid-area: five;
+}
+
+.btn-six {
+    grid-area: six;
+}
+
+.btn-minus {
+    grid-area: minus;
+    background-color: chocolate;
+}
+
+.btn-one {
+    grid-area: one;
+}
+
+.btn-two {
+    grid-area: two;
+}
+
+.btn-three {
+    grid-area: three;
+}
+
+.btn-plus {
+    grid-area: plus;
+    background-color: chocolate;
+}
+
+.btn-dot {
+    grid-area: decimal;
+}
+
+.btn-equal {
+    grid-area: equal;
+    background-color: chocolate;
+}
